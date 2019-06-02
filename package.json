@@ -1,0 +1,18 @@
+{
+  "name": "connpass_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:api": "netlify-lambda serve src",
+    "build:api": "netlify-lambda build src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "netlify-lambda": "^1.4.13",
+    "npm-run-all": "^4.1.5"
+  }
+}

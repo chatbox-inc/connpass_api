@@ -1,0 +1,4 @@
+[build]
+  functions = "functions"
+  environment={SERIES_ID = 1712}
+

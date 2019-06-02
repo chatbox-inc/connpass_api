@@ -19,8 +19,6 @@ exports.handler = async (event, context, callback) => {
             'Access-Control-Max-Age': '2592000',
             'Access-Control-Allow-Credentials': 'true',
         },
-        body: JSON.stringify({
-            data: result.data
-        })
+        body: JSON.stringify(result.data)
     }
 }
